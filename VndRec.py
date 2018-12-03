@@ -25,7 +25,7 @@ def init_feature():
     norm = cv2.NORM_L1
     # http://www.chioka.in/differences-between-l1-and-l2-as-loss-function-and-regularization/
 
-    flann_params = dict(algorithm=FLANN_INDEX_KDTREE, trees=MIN_POINT)
+    # flann_params = dict(algorithm=FLANN_INDEX_KDTREE, trees=MIN_POINT)
     matcher = cv2.BFMatcher(norm)
     return detector, matcher
 
