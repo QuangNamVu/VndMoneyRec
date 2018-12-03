@@ -8,7 +8,7 @@ from tkinter.filedialog import askopenfilename
 
 
 
-img1=cv2.imread("/home/nam/VndMoneyRec_Nam/img_source/500k_1.jpg",4)
+img1=cv2.imread("/home/nam/VndMoneyRec_Nam/img_source/500k_2.jpg",4)
 # img2=cv2.imread("/home/nam/VndMoneyRec_Nam/img_source/500k_1.jpg",4)
 img2=cv2.imread("/home/nam/VndMoneyRec_Nam/img_test/IMG_20181201_170258.jpg",4)
 

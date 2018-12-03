@@ -73,7 +73,9 @@ def match_and_draw(checksound, found, count):
 
     # matching feature
     raw_matches = matcher.knnMatch(desc1, trainDescriptors=desc2, k=2)  # 2
+
     p1, p2, kp_pairs = filter_matches(kp1, kp2, raw_matches)
+
     if len(p1) >= MIN_POINT:
         if not found:
             checksound = True
